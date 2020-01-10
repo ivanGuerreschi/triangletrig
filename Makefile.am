@@ -1,2 +1,3 @@
 SUBDIRS = \
-          src/bin
+       src/lib \
+       src/bin
