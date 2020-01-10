@@ -4,7 +4,7 @@ else
   AM_CFLAGS =-I$(top_srcdir)/src/bin -I$(top_srcdir)/src/lib -Wall -O3
 endif
 
-bin_PROGRAMS = tritri
-tritri_SOURCES = main.c
+bin_PROGRAMS = triangletrig
+triangletrig_SOURCES = main.c
 
-tritri_LDADD = $(top_builddir)/src/lib/librectangle.a $(AM_LDFLAGS)
+triangletrig_LDADD = $(top_builddir)/src/lib/librectangle.a $(AM_LDFLAGS)
